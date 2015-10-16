@@ -14,7 +14,7 @@ Outline of the basic genetic algorithm is as follows:
 
 3. New Population : Create a new population by repeating following steps until the new population is complete
 
-a) Selection : Select two parent chromosomes from a population according to their fitness (the better fitness, the bigger chance to be selected)
+a. Selection : Select two parent chromosomes from a population according to their fitness (the better fitness, the bigger chance to be selected)
 
 b) Crossover/Recombination : With a crossover probability cross over the parents to form a new offspring (children). If no crossover was performed, offspring is an exact copy of parents.
 
