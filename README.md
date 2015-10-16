@@ -5,13 +5,19 @@ Genetic algorithms (GAs) were invented by John Holland in the 1960s. GA is a sea
 
 
 Outline of the basic genetic algorithm is as follows:
+
 1) Chromosome Encoding : Generate random population of n chromosomes (suitable solutions for the problem)
+
 2) Fitness Function : Evaluate the fitness f(x) of each chromosome x in the population
+
 3) New Population : Create a new population by repeating following steps until the new population is complete
 	a) Selection : Select two parent chromosomes from a population according to their fitness (the better fitness, the bigger chance to be selected)
 	b) Crossover/Recombination : With a crossover probability cross over the parents to form a new offspring (children). If no crossover was performed, offspring is an exact copy of parents.
 	c) Mutation : With a mutation probability mutate new offspring at each locus (position in chromosome).
 	d) Place new offspring in a new population
+
 4) Use new generated population for a further run of algorithm
+
 5) If the end condition is satisfied, stop, and return the best solution in current population
+
 6) Repeat steps 2 to 5 until termination condition is satisfied
